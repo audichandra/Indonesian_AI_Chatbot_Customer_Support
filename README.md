@@ -43,7 +43,7 @@ cd Indonesian_AI_Chatbot_Customer_Support
 pip install -r requirements.txt
 ```
 1. Data translation: For this part, you can just use the **Translation Bitext.ipynb** (optional if you have your own datasets in your desired language) 
-2. Model training: as mentioned, Axolotl will be used with Qlora method to train the base model into Gajah 7-B with the command below (The **qlora stuff.ipynb** and **qlora API s.ipynb** are optional, it only intended to test the model capabilities in answering queries)
+2. Model training: as mentioned, Axolotl will be used with Qlora method to train the base model into Gajah-7B with the command below (The **qlora stuff.ipynb** and **qlora API s.ipynb** are optional, it only intended to test the model capabilities in answering queries)
 ```bash
 git clone -b main --depth 1 https://github.com/OpenAccess-AI-Collective/axolotl
 cd axolotl
@@ -90,7 +90,7 @@ python gradio_app.py
 Some of the asked Indonesian questions are also answered in the **qlora API s.ipynb** in model_training folder 
 
 ## Acknowledgements
-- **Authors**: Audi Chandra. Indonesian AI Chatbot Customer Service can be accessed on [Hugging Face](https://huggingface.co/audichandra/Gajah-7B). 
+- **Authors**: Audi Chandra. Indonesian AI Chatbot Customer Service: Gajah-7B can be accessed on [Hugging Face](https://huggingface.co/audichandra/Gajah-7B). 
 - **License**: [MIT License](https://github.com/audichandra/Selenium_Webscraping_Kalibrr/blob/main/LICENSE).
 - **Base Model**: Special thanks to Muhammad Ichsan for developing "Merak-7B: The LLM for Bahasa Indonesia," a foundational model for our project, published on Hugging Face in 2023. You can explore this model further [here](https://huggingface.co/Ichsan2895/Merak-7B-v4).
 - **Training Dataset**: Our model training leveraged the "Bitext Customer Support LLM Chatbot Training Dataset," available on Hugging Face. We appreciate the dataset compilers for their valuable contribution. Access the original dataset [here](https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset).
