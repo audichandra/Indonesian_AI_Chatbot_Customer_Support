@@ -5,13 +5,14 @@
 - [File Structure](#file-structure)
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
+    - 
     - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
 - [Acknowledgements](#acknowledgements)
 
 ## Description
-This project develops an Indonesian AI chatbot tailored for customer service applications. The chatbot is trained with Qlora by [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) from [Merak 7-B](https://huggingface.co/Ichsan2895/Merak-7B-v4) as the base model to understand and respond to customer queries effectively in Indonesian. The dataset needed to train the base model is taken from [Bitext](https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset) customer support LLM Chatbot training dataset which will be translated into Bahasa Indonesia by using [Opus](https://huggingface.co/Helsinki-NLP/opus-mt-en-id). This repository contains resources for data translation, model training and a training model loading API with a Gradio frontend for easy interaction and testing for demonstration purposes.
+This project develops an Indonesian AI chatbot tailored for customer service applications. The chatbot is trained with Qlora by [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) from [Merak 7-B](https://huggingface.co/Ichsan2895/Merak-7B-v4) as the base model to understand and respond to customer queries effectively in Indonesian. The dataset needed to train the base model is taken from [Bitext](https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset) customer support LLM Chatbot training dataset which will be translated into Bahasa Indonesia by using [Opus](https://huggingface.co/Helsinki-NLP/opus-mt-en-id). This repository contains resources for data translation, model training, and a training model loading API with a Gradio frontend for easy interaction and testing for demonstration purposes.
 
 ## File Structure
 - `requirements.txt`: List of all necessary Python libraries.
@@ -38,7 +39,7 @@ git clone https://github.com/your-username/your-repository.git
    `cd <repo-name>`
 3. Install the required packages:  
    `pip install -r requirements.txt`
-
+```
 
 
 ## Usage
