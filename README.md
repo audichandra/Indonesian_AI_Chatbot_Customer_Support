@@ -66,7 +66,7 @@ export TRANSFORMERS_CACHE=/workspace
 Replace the scripts of each followings with the ones from **model_training** folder:
 - both qlora.yml and config.yml in the examples/mistral/ folder path
 - zero2.json in deepspeed folder path (this is optional and depends on whether you will use deepspeed zero 2 or 3, TLDR: zero 2 speed up the training process while zero 3 is taking longer due to more detailed training)
-*some of the files path directories might need to be modified according to your current directories*
+- *some of the files path directories might need to be modified according to your current directories*
 ```bash
 accelerate launch scripts/finetune.py examples/mistral/qlora.yml --deepspeed deepspeed/zero2.json
 ```
@@ -81,7 +81,7 @@ uvicorn fast_s:app --host 0.0.0.0 --port 8000
 ```bash
 python gradio_app.py
 ```
-**This API and frontend process are loaded on 1x RTX a5000 with 24gb vram and 29gb ram (you can use the gpu with less vram and ram with BitsandBytes 4-bit Quantization but it may compromise the result)** 
+**This API and frontend process are loaded on 1x RTX a5000 with 24gb VRAM and 29gb RAM (you can use the gpu with less VRAM and RAM with BitsandBytes 4-bit Quantization but it may compromise the result)** 
 
 ## Results
 
