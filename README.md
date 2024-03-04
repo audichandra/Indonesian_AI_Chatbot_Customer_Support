@@ -33,6 +33,8 @@ The 3 process:
 - Pytorch => 2.0 
 - Jupyter Notebook (optional)
 
+[<img src="https://raw.githubusercontent.com/OpenAccess-AI-Collective/axolotl/main/image/axolotl-badge-web.png" alt="Built with Axolotl" width="200" height="32"/>](https://github.com/OpenAccess-AI-Collective/axolotl)
+
 ### Installation
 To set up the environment:
 *notes: this project is being run on runpod cloud gpu* 
