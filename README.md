@@ -38,7 +38,7 @@ To set up the environment:
 *notes: this project is being run on runpod cloud gpu* 
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/audichandra/Indonesian_AI_Chatbot_Customer_Support.git
 cd Indonesian_AI_Chatbot_Customer_Support
 pip install -r requirements.txt
 ```
