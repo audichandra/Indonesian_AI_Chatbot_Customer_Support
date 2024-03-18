@@ -64,7 +64,7 @@ pip install xformers==0.0.22.post4 --index-url https://download.pytorch.org/whl/
 pip install -e '.[flash-attn,deepspeed]'
 pip install -U git+https://github.com/huggingface/peft.git 
 pip install peft==0.6.0
-pip install gradio -U
+pip install -U gradio flash-attn
 export TRANSFORMERS_CACHE=/workspace
 ```
 Replace the scripts of each followings with the ones from **model_training** folder:
