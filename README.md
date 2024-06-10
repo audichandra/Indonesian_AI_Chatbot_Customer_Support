@@ -95,7 +95,7 @@ Some of the asked Indonesian questions are also answered in the **qlora API s.ip
 
 ## Acknowledgements
 - **Authors**: Audi Chandra. Indonesian AI Chatbot Customer Service: Gajah-7B can be accessed on [Hugging Face](https://huggingface.co/audichandra/Gajah-7B). 
-- **License**: [MIT License](https://github.com/audichandra/Selenium_Webscraping_Kalibrr/blob/main/LICENSE).
+- **License**: [MIT License](https://github.com/audichandra/Indonesian_AI_Chatbot_Customer_Support/blob/main/LICENSE.txt).
 - **Base Model**: Special thanks to Muhammad Ichsan for developing "Merak-7B: The LLM for Bahasa Indonesia," a foundational model for our project, published on Hugging Face in 2023. You can explore this model further [here](https://huggingface.co/Ichsan2895/Merak-7B-v4).
 - **Training Dataset**: Our model training leveraged the "Bitext Customer Support LLM Chatbot Training Dataset," available on Hugging Face. We appreciate the dataset compilers for their valuable contribution. Access the original dataset [here](https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset).
 - **Machine Learning Translation (English to Indonesian)**: We utilized the machine translation model by Opus, specifically "opus-mt-en-id" for translating English to Indonesian. This significantly aided our data preparation process. Kudos to the team at Helsinki NLP for this resource, available on [Hugging Face](https://huggingface.co/Helsinki-NLP/opus-mt-en-id).
